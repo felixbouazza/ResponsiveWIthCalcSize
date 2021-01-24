@@ -1,0 +1,26 @@
+#nav-header {
+    position: fixed;
+    top: 0;
+    left:0;
+    height: calc(3rem + 1vw);
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: calc(1rem + 0.5vw);
+    color: white;
+    margin-left: 1rem;
+}
+
+button {
+    margin-right: 1rem;
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+    outline: none;
+}
